@@ -12,7 +12,7 @@ class women  {
 const ria = new women("herim",30,"female");
 
 const whoAmI = (ria : women) : string => {
-    return `Hello ${ria.name}, you are ${ria.age} old and  you are ${ria.gender}`;
+    return `Hello ${ria.name}, you are ${ria.age} old and  you are ${ria.gender} :)`;
 }
 
 console.log(whoAmI(ria));
